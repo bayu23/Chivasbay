@@ -1898,7 +1898,7 @@ def bot(op):
                 kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
                 cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
                 ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")                cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
+                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")              cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
                 ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
                 kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
                 cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")

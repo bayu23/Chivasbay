@@ -1912,13 +1912,7 @@ def bot(op):
 				ki.sendText(msg.to,(bctxt))
 				kk.sendText(msg.to,(bctxt))
 				cl.sendText(msg.to,(bctxt))
-#-----------------------------------------------
-            elif "Broadcast " in msg.txt:
-     broadcasttxt = msg.text.replace("Broadcast ", "")
-     group = cl.getGroupIdsJoined()
-     for wait in group:
-          cl.sendText(orang, (broadcasttxt))
-#-----------------------------------------------
+		#-----------------------------------------------
             elif msg.text in ["hay"]:
                 ki.sendText(msg.to,"hay juga 􀜁􀅔􏿿")
                 kk.sendText(msg.to,"salken􏿿")

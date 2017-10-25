@@ -1898,7 +1898,8 @@ def bot(op):
                 kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
                 cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
                 ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
-                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")              cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
+                kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
+		cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
                 ki.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
                 kk.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
                 cl.sendText(msg.to,"P 􀔃􀆶squared up!􏿿")
@@ -1914,8 +1915,8 @@ def bot(op):
 #-----------------------------------------------
             elif "Broadcast " in msg.txt:
      broadcasttxt = msg.text.replace("Broadcast ", "")
-     orang = cl.getGroupIdsJoined()
-     for manusia in orang:
+     group = cl.getGroupIdsJoined()
+     for wait in group:
           cl.sendText(orang, (broadcasttxt))
 #-----------------------------------------------
             elif msg.text in ["hay"]:
@@ -1949,9 +1950,9 @@ def bot(op):
                 kc.sendText(msg.to,"PONG 􀨁􀄻double thumbs up􏿿􀜁􀅔Har Har􏿿")
 #-----------------------------------------------
             elif msg.text in ["Respon","respon"]:
-                ki.sendText(msg.to,"RUN1")
-                kk.sendText(msg.to,"RUN2")
-                kc.sendText(msg.to,"RUN3")
+                ki.sendText(msg.to,"HADIR")
+                kk.sendText(msg.to,"HADIR BOUS")
+                kc.sendText(msg.to,"HADIR SU")
 #-----------------------------------------------
 
             elif msg.text in ["Sp","Speed","speed"]:
@@ -2091,7 +2092,7 @@ def autolike():
 
 						cl.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
 
-						cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"t̷e̷a̷m̷ b̷o̷t̷")
+						cl.comment(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],"auto like by t̷e̷a̷m̷ b̷o̷t̷")
 
 						kk.like(hasil['result']['posts'][zx]['userInfo']['mid'],hasil['result']['posts'][zx]['postInfo']['postId'],likeType=1002)
 
